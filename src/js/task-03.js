@@ -22,25 +22,3 @@ galleryEl.style.display = 'flex';
 galleryEl.style.gap = '10px';
 galleryEl.style.listStyleType = 'none';
 galleryEl.insertAdjacentHTML('beforeEnd', createEl);
-
-// const galleryEl = document.querySelector('.gallery');
-
-// const createEl = images.map(image => {
-//     const item = galleryEl.insertAdjacentHTML(
-//         'beforeEnd',
-//         `<li><img src = "${image.url}" alt = "${image.alt}" width = "250" height = "150"/></li>`
-//     );
-//     galleryEl.style.display = 'flex';
-//     galleryEl.style.gap = '10px';
-//     galleryEl.style.listStyleType = 'none';
-//     console.log(item);
-// });
-
-/* <ul class="gallery"></ul>; */
-
-// Используй массив объектов images для создания элементов <img> вложенных
-//  в <li>. Для создания разметки используй шаблонные строки и метод
-//   insertAdjacentHTML().
-
-// Все элементы галереи должны добавляться в DOM за одну операцию вставки.
-// Добавь минимальное оформление галереи флексбоксами или гридами через CSS классы.
