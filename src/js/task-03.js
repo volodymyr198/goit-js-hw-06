@@ -21,4 +21,4 @@ const createEl = images.map(image => {
 galleryEl.style.display = 'flex';
 galleryEl.style.gap = '10px';
 galleryEl.style.listStyleType = 'none';
-galleryEl.insertAdjacentHTML('beforeEnd', createEl);
+galleryEl.insertAdjacentHTML('beforeEnd', createEl.join(''));
